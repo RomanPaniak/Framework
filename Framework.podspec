@@ -8,7 +8,7 @@ s.summary = "KindPod get us opportunity to have a rounded view"
 s.requires_arc = true
 
 # 2
-s.version = "0.0.1"
+s.version = "0.1.0"
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -17,10 +17,10 @@ s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Roman Paniak" => "roman.paniak@kindgeek.com" }
 
 # 5 - Replace this URL with your own GitHub page's URL (from the address bar)
-s.homepage = "https://github.com/pavserg/KindPod"
+s.homepage = "https://github.com/RomanPaniak/Framework"
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git =>  "https://bitbucket.org/romanpaniak/app/src/master/Framework/",
+s.source = { :git =>  "https://github.com/RomanPaniak/Framework.git",
 :tag => "#{s.version}" }
 
 # 7
@@ -28,7 +28,7 @@ s.framework = "UIKit"
 s.dependency "JSONKit", "~> 1.4"
 
 # 8
-s.source_files  = "Framework/**/*.{swift}"
+s.source_files  = "Framework/*.{swift}"
 
 # 10
 s.swift_version = "4.2"
